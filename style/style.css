@@ -33,6 +33,7 @@
     border: 1px solid green;
 
   }
+
 .hero{
     display: flex;
     width: 1200px;
@@ -137,7 +138,7 @@ border-radius: 10px;
 }
 .vision-btn-1{
     background-color: #5490F5;
-    padding: 5px 10px;
+    padding: 10px 10px;
     border: 1px;
     border-radius: 5px;
     color: white;
@@ -150,7 +151,7 @@ border-radius: 10px;
 .vision-btn-2{
     background-color: #09A15C;
     margin-top: 18px;
-    padding: 5px 10px;
+    padding: 10px 10px;
     border: 1px;
     border-radius: 5px;
     color: whitesmoke;
@@ -162,7 +163,7 @@ border-radius: 10px;
 }
 .vision-btn-3{
     background-color: #FFC239;
-    padding: 5px 10px;
+    padding: 10px 10px;
     border: 1px;
     border-radius: 5px;
     color: rgb(255, 255, 255);
@@ -181,8 +182,10 @@ border-radius: 10px;
     padding: 5px 20px;
     background-image: url('../assets/quote-bg.png');
     background-repeat: no-repeat;
-    background-position: top left;
+    background-position: top left 18px;
     border-radius: 10px;
+    border: 1px solid rgb(226, 223, 223);
+    /* padding: 20px; */
     
 }
 
@@ -234,6 +237,9 @@ border-radius: 10px;
     border-radius: 10px;
     border:1px solid rgb(218, 217, 217);
 }
+.amount:hover{
+    background-color: #f0cece;
+}
 .amount-2{
     margin-right: 30px;
     padding: 20px 70px;
@@ -242,6 +248,35 @@ border-radius: 10px;
     font-family:"Fira Sans", serif ;
     border-radius: 10px;
     background-color: #d6d4d4;
+}
+.amount-2:hover{
+    background: #a09f9f;
+}
+.amount-3{
+    background-color: #FFFFFF;
+    margin-right: 30px;
+   padding: 20px 70px;
+   font-size: 18px;
+   font-weight: bold;
+   font-family:"Fira Sans", serif ;
+   border-radius: 10px;
+   border:1px solid rgb(218, 217, 217);
+}
+.amount-3:hover{
+    background: #b6d6f0;
+}
+.amount-4{
+    background-color: #FFFFFF;
+    margin-right: 30px;
+   padding: 20px 70px;
+   font-size: 18px;
+   font-weight: bold;
+   font-family:"Fira Sans", serif ;
+   border-radius: 10px;
+   border:1px solid rgb(218, 217, 217);
+}
+.amount-4:hover{
+    background: #d8f17e;
 }
 .input{
     text-align: center;
