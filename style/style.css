@@ -232,6 +232,7 @@ border-radius: 10px;
     font-weight: bold;
     font-family:"Fira Sans", serif ;
     border-radius: 10px;
+    border:1px solid rgb(218, 217, 217);
 }
 .amount-2{
     margin-right: 30px;
