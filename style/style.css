@@ -179,7 +179,7 @@ border-radius: 10px;
     background-color: #FFFFFF;
     margin-left: 130px;
     padding: 5px 20px;
-    background-image: url('/assets/quote-bg.png');
+    background-image: url('../assets/quote-bg.png');
     background-repeat: no-repeat;
     background-position: top left;
     border-radius: 10px;
@@ -233,6 +233,15 @@ border-radius: 10px;
     font-family:"Fira Sans", serif ;
     border-radius: 10px;
 }
+.amount-2{
+    margin-right: 30px;
+    padding: 20px 70px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family:"Fira Sans", serif ;
+    border-radius: 10px;
+    background-color: #d6d4d4;
+}
 .input{
     text-align: center;
     margin: 20px;
@@ -246,6 +255,9 @@ border-radius: 10px;
     margin-left: 56px;
     border-radius: 10px;
 }
+/* .amount-2{
+    background: #d6c7c7;
+} */
 .donate-btn{
     text-align: center;
      margin-left: 40px;
